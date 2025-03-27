@@ -32,9 +32,9 @@ order_day = order_date.day
 
 # Create DataFrame
 new_data = pd.DataFrame({
-    'product_category_name_english': [product_category_encoded],
-    'customer_state': [customer_state_encoded],
     'seller_state': [seller_state_encoded],
+    'customer_state': [customer_state_encoded],
+    'product_category_name_english': [product_category_encoded],
     'freight_value': [freight_value],
     'order_year': [order_year],
     'order_month': [order_month],
